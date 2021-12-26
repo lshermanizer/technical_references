@@ -18,3 +18,17 @@ Similarly, if Length = `inch`, Force = `pounds`, then Pressure = Stress = Youngs
 |:----           |:-------|:---------------|:-----|:-----|:---------------------------------|:------- |:------|
 | SI             | m      | N = kg-m/s^2   | s    | kg   | Pa = N/m^2                       | kg/m^3  | Watt=Nm |
 | SI but mm      | mm     | N = ton-mm/s^2 | s    | ton  | MPa = N/mm^2                     | ton/mm^3 | W=ton-mm |
+
+
+| Physical property                 | SI            | English lbm | English lbf
+|:--------------------------------- |:---           | :-------    | :------------
+| Length                            | m             | ft          | ft
+| Force (`F=ma`)                    | N = kg-m/s^2  | lbm-ft/s^2  | lbf
+| Time                              | s             | s           | s
+| Acceleration                      | m/s^2         | ft/s^2      | ft/s^2
+| Mass                              | kg            | lbm         | lbf-s^2/ft = slug, 1 slug=32.174 lbm
+| Pressure, Stress, Youngs Modulus  | Pa = N/m^2    | lbm/s^2-ft  | lbf/ft^2
+| Density                           | kg/m^3        | lbm/ft^3    | lbf-s^2/ft^4 = slug/ft^3
+| Power                             | Watt = N-m    | lbm-ft^2/s^2| lbf-ft
+
+1 lbf is the amount of force required to accelerate 1 slug at a rate of 1 ft/s^2.
