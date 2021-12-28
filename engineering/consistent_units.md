@@ -20,15 +20,25 @@ Similarly, if Length = `inch`, Force = `pounds`, then Pressure = Stress = Youngs
 | SI but mm      | mm     | N = ton-mm/s^2 | s    | ton  | MPa = N/mm^2                     | ton/mm^3 | W=ton-mm |
 
 
-| Physical property                 | SI            | English lbm | English lbf
-|:--------------------------------- |:---           | :-------    | :------------
-| Length                            | m             | ft          | ft
-| Force (`F=ma`)                    | N = kg-m/s^2  | lbm-ft/s^2  | lbf
-| Time                              | s             | s           | s
-| Acceleration                      | m/s^2         | ft/s^2      | ft/s^2
-| Mass                              | kg            | lbm         | lbf-s^2/ft = slug, 1 slug=32.174 lbm
-| Pressure, Stress, Youngs Modulus  | Pa = N/m^2    | lbm/s^2-ft  | lbf/ft^2
-| Density                           | kg/m^3        | lbm/ft^3    | lbf-s^2/ft^4 = slug/ft^3
-| Power                             | Watt = N-m    | lbm-ft^2/s^2| lbf-ft
+| Physical property                 | SI            | English lbm | English (ft, lbf, s)                  | English (inch, lbf, s)
+|:--------------------------------- |:---           | :-------    | :------------------------------------ | :---------------------
+| Length                            | m             | ft          | ft                                    | in
+| Force (`F=ma`)                    | N = kg-m/s^2  | lbm-ft/s^2  | lbf                                   | lbf
+| Time                              | s             | s           | s                                     | s
+| Acceleration                      | m/s^2         | ft/s^2      | ft/s^2                                | in/s^2
+| Mass                              | kg            | lbm         | lbf-s^2/ft = slug, 1 slug=32.174 lbm  | lbf-s^2/in = slinch, 1 slinch=12 slugs
+| Pressure, Stress, Youngs Modulus  | Pa = N/m^2    | lbm/s^2-ft  | lbf/ft^2                              | lbf/in^2
+| Density                           | kg/m^3        | lbm/ft^3    | lbf-s^2/ft^4 = slug/ft^3              | lbf-s^2/in^4 = slinch/in^3
+| Momentum                          | kg-m/s        | lbm-ft/s    | lbf-s                                 | lbf-s
+| Power                             | W = N-m/s     | lbm-ft^2/s^3| lbf-ft/s                              | lbf-in/s
+| Energy, moment                    | J = N-m       | lbm-ft^2/s^2| lbf-ft                                | lbf-in
 
 1 lbf is the amount of force required to accelerate 1 slug at a rate of 1 ft/s^2.
+
+1 lbf is the amount of force required to accelerate 1 slinch at a rate of 1 in/s^2.
+
+1 slug (1 lbf-s^2/ft) is the amount of mass which will accelerate by 1 ft/s^2 when a force of 1 lbf is exerted on it.
+
+1 slinch (1 lbf-s^2/in) is the amount of mass which will accelerate by 1 in/s^2 when a force of 1 lbf is exerted on it.
+
+1 slinch = 175.126836 kg, or 1 kg = 5.7100e-3 slinch.
