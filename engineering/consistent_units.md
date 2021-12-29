@@ -42,3 +42,11 @@ Similarly, if Length = `inch`, Force = `pounds`, then Pressure = Stress = Youngs
 1 slinch (1 lbf-s^2/in) is the amount of mass which will accelerate by 1 in/s^2 when a force of 1 lbf is exerted on it.
 
 1 slinch = 175.126836 kg, or 1 kg = 5.7100e-3 slinch.
+
+## Unit conversions
+```
+1 [lbf] = 1 [slug*ft/s^2] = 14.5939 [kg]*0.3048 [m] / 1 [s^2] = 4.448 [kg*m/s^2] = 4.448 [N]
+1 [lbf-in] = 1 [lbf] * 1[in] = 4.448 [N] * 0.0254 [m] = 0.113 [N*m] = 0.113 [J]
+1 [lbf-in/in^2] = 1 [lbf-in] / 1[in^2] = 0.113 [J] / 0.00064516 [m^2] = 175.15 [J/m^2]
+1 [lbf-in/ft^2] = 1 [lbf-in] / 1[ft^2] = 0.113 [J] / 0.092903 [m^2] = 1.2163 [J/m^2]
+```
